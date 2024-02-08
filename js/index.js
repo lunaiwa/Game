@@ -28,7 +28,7 @@ const offset = {
 
 collisionsMap.forEach((row, i) => {
   row.forEach((symbol, j) => {
-    if (symbol === 25201)//tile number for collisions
+    if (symbol === 1025)//tile number for collisions 25201
       boundaries.push(
         new Boundary({
           position: {
@@ -44,7 +44,7 @@ const battleZones = []
 
 battleZonesMap.forEach((row, i) => {
   row.forEach((symbol, j) => {
-    if (symbol === 1025)//battle zone tile number
+    if (symbol === 1025)//battle zone tile number 1025
       battleZones.push(
         new Boundary({
           position: {
